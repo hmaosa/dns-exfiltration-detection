@@ -27,7 +27,7 @@ dns-exfiltration-detection/
 
 1. Clone the repo:
 ```bash
-git clone https://github.com/YOUR_USERNAME/dns-exfiltration-analysis.git
+git clone https://github.com/hmaosa/dns-exfiltration-analysis.git
 cd dns-exfiltration-analysis
 ```
 
@@ -71,7 +71,7 @@ jupyter lab dns_exfiltration_github.ipynb
 
 Herbert Maosa  
 Cybersecurity Consultant | PhD | CISSP | OSCP  
-[LinkedIn](https://www.linkedin.com/in/herbertmaosa/) · [Medium](https://medium.com/@herbertmaosa)
+[LinkedIn](https://www.linkedin.com/in/herbert-maosa-993518120/)
 
 ---
 
