@@ -4,3 +4,5 @@ seaborn
 tldextract
 ipywidgets
 ipyfilechooser
+dpkt=1.9.8
+scapy=2.6.1
