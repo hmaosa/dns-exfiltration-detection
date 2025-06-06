@@ -7554,7 +7554,7 @@ Cybersecurity Consultant | PhD | CISSP | OSCP</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [1]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [4]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
@@ -7565,27 +7565,12 @@ Cybersecurity Consultant | PhD | CISSP | OSCP</p>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=422c35c7">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [2]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="n">scripts_path</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">abspath</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">getcwd</span><span class="p">(),</span> <span class="s2">"../Scripts"</span><span class="p">))</span>
-<span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">scripts_path</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=2376ebf6-8be0-46b9-b240-75f2b552424d">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [3]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [6]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">json</span>
@@ -7640,7 +7625,7 @@ The PCAP is initially dissected using our own python script, <code>pcap_parser.p
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [4]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [7]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">pcap_file</span> <span class="o">=</span> <span class="s1">'../parsed_output/all_dns.json'</span> <span class="c1"># specify the location of your parsed JSON files</span>
@@ -7657,7 +7642,7 @@ The PCAP is initially dissected using our own python script, <code>pcap_parser.p
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[4]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[7]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
@@ -7762,7 +7747,7 @@ The PCAP is initially dissected using our own python script, <code>pcap_parser.p
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [5]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [8]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">responses_df</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="n">df</span><span class="p">[</span><span class="s2">"qr"</span><span class="p">]</span> <span class="o">==</span> <span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
@@ -7776,7 +7761,7 @@ The PCAP is initially dissected using our own python script, <code>pcap_parser.p
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [6]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [9]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">questions_df</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="n">df</span><span class="p">[</span><span class="s2">"qr"</span><span class="p">]</span> <span class="o">==</span> <span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
@@ -7813,7 +7798,7 @@ The PCAP is initially dissected using our own python script, <code>pcap_parser.p
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [7]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [10]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">12</span><span class="p">,</span> <span class="mi">5</span><span class="p">))</span>
@@ -7878,7 +7863,7 @@ The PCAP is initially dissected using our own python script, <code>pcap_parser.p
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [8]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [11]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">5</span><span class="p">))</span>
@@ -7941,7 +7926,7 @@ These domains often:</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [9]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [12]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Show top qnames</span>
@@ -8020,7 +8005,7 @@ ccnumber.expirydate.ccv.9dkaei.malicious-domain.com
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [10]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [13]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">subdomain_map</span> <span class="o">=</span> <span class="n">map_dns_subdomains</span><span class="p">(</span><span class="n">questions_df</span><span class="p">[</span><span class="s1">'qname'</span><span class="p">])</span>
@@ -8090,7 +8075,7 @@ ccnumber.expirydate.ccv.9dkaei.malicious-domain.com
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [11]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [14]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Round timestamps to nearest minute or hour</span>
@@ -8162,7 +8147,7 @@ ccnumber.expirydate.ccv.9dkaei.malicious-domain.com
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [12]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [15]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Sort questions by client and timestamp</span>
@@ -8182,7 +8167,7 @@ ccnumber.expirydate.ccv.9dkaei.malicious-domain.com
 <span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s2">"Frequency"</span><span class="p">)</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">grid</span><span class="p">(</span><span class="kc">True</span><span class="p">)</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">tight_layout</span><span class="p">()</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">savefig</span><span class="p">(</span><span class="s1">'../Images/inter_query_durations.png'</span><span class="p">)</span>
+<span class="c1">#plt.savefig('../Images/inter_query_durations.png')</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
 </pre></div>
 </div>
@@ -8193,90 +8178,6 @@ ccnumber.expirydate.ccv.9dkaei.malicious-domain.com
 <div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
-<pre>
-<span class="ansi-red-fg">---------------------------------------------------------------------------</span>
-<span class="ansi-red-fg">FileNotFoundError</span>                         Traceback (most recent call last)
-<span class="ansi-cyan-fg">Cell</span><span class="ansi-cyan-fg"> </span><span class="ansi-green-fg">In[12]</span><span class="ansi-green-fg">, line 18</span>
-<span class="ansi-green-fg">     16</span> plt.grid(<span class="ansi-bold" style="color: rgb(0,135,0)">True</span>)
-<span class="ansi-green-fg">     17</span> plt.tight_layout()
-<span class="ansi-green-fg">---&gt; </span><span class="ansi-green-fg">18</span> <span class="ansi-yellow-bg">plt</span><span class="ansi-yellow-bg">.</span><span class="ansi-yellow-bg">savefig</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-fg ansi-yellow-bg">'</span><span class="ansi-yellow-fg ansi-yellow-bg">../Images/inter_query_durations.png</span><span class="ansi-yellow-fg ansi-yellow-bg">'</span><span class="ansi-yellow-bg">)</span>
-<span class="ansi-green-fg">     19</span> plt.show()
-
-<span class="ansi-cyan-fg">File </span><span class="ansi-green-fg">~/projects/dns-exfiltration-detection/.venv/lib/python3.12/site-packages/matplotlib/pyplot.py:1251</span>, in <span class="ansi-cyan-fg">savefig</span><span class="ansi-blue-fg">(*args, **kwargs)</span>
-<span class="ansi-green-fg">   1248</span> fig = gcf()
-<span class="ansi-green-fg">   1249</span> <span style="color: rgb(95,135,135)"># savefig default implementation has no return, so mypy is unhappy</span>
-<span class="ansi-green-fg">   1250</span> <span style="color: rgb(95,135,135)"># presumably this is here because subclasses can return?</span>
-<span class="ansi-green-fg">-&gt; </span><span class="ansi-green-fg">1251</span> res = <span class="ansi-yellow-bg">fig</span><span class="ansi-yellow-bg">.</span><span class="ansi-yellow-bg">savefig</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg">*</span><span class="ansi-yellow-bg">args</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg">*</span><span class="ansi-yellow-bg">*</span><span class="ansi-yellow-bg">kwargs</span><span class="ansi-yellow-bg">)</span>  <span style="color: rgb(95,135,135)"># type: ignore[func-returns-value]</span>
-<span class="ansi-green-fg">   1252</span> fig.canvas.draw_idle()  <span style="color: rgb(95,135,135)"># Need this if 'transparent=True', to reset colors.</span>
-<span class="ansi-green-fg">   1253</span> <span class="ansi-bold" style="color: rgb(0,135,0)">return</span> res
-
-<span class="ansi-cyan-fg">File </span><span class="ansi-green-fg">~/projects/dns-exfiltration-detection/.venv/lib/python3.12/site-packages/matplotlib/figure.py:3490</span>, in <span class="ansi-cyan-fg">Figure.savefig</span><span class="ansi-blue-fg">(self, fname, transparent, **kwargs)</span>
-<span class="ansi-green-fg">   3488</span>     <span class="ansi-bold" style="color: rgb(0,135,0)">for</span> ax <span class="ansi-bold" style="color: rgb(175,0,255)">in</span> <span style="color: rgb(0,135,0)">self</span>.axes:
-<span class="ansi-green-fg">   3489</span>         _recursively_make_axes_transparent(stack, ax)
-<span class="ansi-green-fg">-&gt; </span><span class="ansi-green-fg">3490</span> <span class="ansi-yellow-bg" style="color: rgb(0,135,0)">self</span><span class="ansi-yellow-bg">.</span><span class="ansi-yellow-bg">canvas</span><span class="ansi-yellow-bg">.</span><span class="ansi-yellow-bg">print_figure</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg">fname</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg">*</span><span class="ansi-yellow-bg">*</span><span class="ansi-yellow-bg">kwargs</span><span class="ansi-yellow-bg">)</span>
-
-<span class="ansi-cyan-fg">File </span><span class="ansi-green-fg">~/projects/dns-exfiltration-detection/.venv/lib/python3.12/site-packages/matplotlib/backend_bases.py:2184</span>, in <span class="ansi-cyan-fg">FigureCanvasBase.print_figure</span><span class="ansi-blue-fg">(self, filename, dpi, facecolor, edgecolor, orientation, format, bbox_inches, pad_inches, bbox_extra_artists, backend, **kwargs)</span>
-<span class="ansi-green-fg">   2180</span> <span class="ansi-bold" style="color: rgb(0,135,0)">try</span>:
-<span class="ansi-green-fg">   2181</span>     <span style="color: rgb(95,135,135)"># _get_renderer may change the figure dpi (as vector formats</span>
-<span class="ansi-green-fg">   2182</span>     <span style="color: rgb(95,135,135)"># force the figure dpi to 72), so we need to set it again here.</span>
-<span class="ansi-green-fg">   2183</span>     <span class="ansi-bold" style="color: rgb(0,135,0)">with</span> cbook._setattr_cm(<span style="color: rgb(0,135,0)">self</span>.figure, dpi=dpi):
-<span class="ansi-green-fg">-&gt; </span><span class="ansi-green-fg">2184</span>         result = <span class="ansi-yellow-bg">print_method</span><span class="ansi-yellow-bg">(</span>
-<span class="ansi-green-fg">   2185</span> <span class="ansi-yellow-bg">            </span><span class="ansi-yellow-bg">filename</span><span class="ansi-yellow-bg">,</span>
-<span class="ansi-green-fg">   2186</span> <span class="ansi-yellow-bg">            </span><span class="ansi-yellow-bg">facecolor</span><span class="ansi-yellow-bg">=</span><span class="ansi-yellow-bg">facecolor</span><span class="ansi-yellow-bg">,</span>
-<span class="ansi-green-fg">   2187</span> <span class="ansi-yellow-bg">            </span><span class="ansi-yellow-bg">edgecolor</span><span class="ansi-yellow-bg">=</span><span class="ansi-yellow-bg">edgecolor</span><span class="ansi-yellow-bg">,</span>
-<span class="ansi-green-fg">   2188</span> <span class="ansi-yellow-bg">            </span><span class="ansi-yellow-bg">orientation</span><span class="ansi-yellow-bg">=</span><span class="ansi-yellow-bg">orientation</span><span class="ansi-yellow-bg">,</span>
-<span class="ansi-green-fg">   2189</span> <span class="ansi-yellow-bg">            </span><span class="ansi-yellow-bg">bbox_inches_restore</span><span class="ansi-yellow-bg">=</span><span class="ansi-yellow-bg">_bbox_inches_restore</span><span class="ansi-yellow-bg">,</span>
-<span class="ansi-green-fg">   2190</span> <span class="ansi-yellow-bg">            </span><span class="ansi-yellow-bg">*</span><span class="ansi-yellow-bg">*</span><span class="ansi-yellow-bg">kwargs</span><span class="ansi-yellow-bg">)</span>
-<span class="ansi-green-fg">   2191</span> <span class="ansi-bold" style="color: rgb(0,135,0)">finally</span>:
-<span class="ansi-green-fg">   2192</span>     <span class="ansi-bold" style="color: rgb(0,135,0)">if</span> bbox_inches <span class="ansi-bold" style="color: rgb(175,0,255)">and</span> restore_bbox:
-
-<span class="ansi-cyan-fg">File </span><span class="ansi-green-fg">~/projects/dns-exfiltration-detection/.venv/lib/python3.12/site-packages/matplotlib/backend_bases.py:2040</span>, in <span class="ansi-cyan-fg">FigureCanvasBase._switch_canvas_and_return_print_method.&lt;locals&gt;.&lt;lambda&gt;</span><span class="ansi-blue-fg">(*args, **kwargs)</span>
-<span class="ansi-green-fg">   2036</span>     optional_kws = {  <span style="color: rgb(95,135,135)"># Passed by print_figure for other renderers.</span>
-<span class="ansi-green-fg">   2037</span>         <span class="ansi-yellow-fg">"</span><span class="ansi-yellow-fg">dpi</span><span class="ansi-yellow-fg">"</span>, <span class="ansi-yellow-fg">"</span><span class="ansi-yellow-fg">facecolor</span><span class="ansi-yellow-fg">"</span>, <span class="ansi-yellow-fg">"</span><span class="ansi-yellow-fg">edgecolor</span><span class="ansi-yellow-fg">"</span>, <span class="ansi-yellow-fg">"</span><span class="ansi-yellow-fg">orientation</span><span class="ansi-yellow-fg">"</span>,
-<span class="ansi-green-fg">   2038</span>         <span class="ansi-yellow-fg">"</span><span class="ansi-yellow-fg">bbox_inches_restore</span><span class="ansi-yellow-fg">"</span>}
-<span class="ansi-green-fg">   2039</span>     skip = optional_kws - {*inspect.signature(meth).parameters}
-<span class="ansi-green-fg">-&gt; </span><span class="ansi-green-fg">2040</span>     print_method = functools.wraps(meth)(<span class="ansi-bold" style="color: rgb(0,135,0)">lambda</span> *args, **kwargs: <span class="ansi-yellow-bg">meth</span><span class="ansi-yellow-bg">(</span>
-<span class="ansi-green-fg">   2041</span> <span class="ansi-yellow-bg">        </span><span class="ansi-yellow-bg">*</span><span class="ansi-yellow-bg">args</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg">*</span><span class="ansi-yellow-bg">*</span><span class="ansi-yellow-bg">{</span><span class="ansi-yellow-bg">k</span><span class="ansi-yellow-bg">:</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg">v</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg ansi-bold" style="color: rgb(0,135,0)">for</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg">k</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg">v</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg ansi-bold" style="color: rgb(175,0,255)">in</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg">kwargs</span><span class="ansi-yellow-bg">.</span><span class="ansi-yellow-bg">items</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg">)</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg ansi-bold" style="color: rgb(0,135,0)">if</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg">k</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg ansi-bold" style="color: rgb(175,0,255)">not</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg ansi-bold" style="color: rgb(175,0,255)">in</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg">skip</span><span class="ansi-yellow-bg">}</span><span class="ansi-yellow-bg">)</span>)
-<span class="ansi-green-fg">   2042</span> <span class="ansi-bold" style="color: rgb(0,135,0)">else</span>:  <span style="color: rgb(95,135,135)"># Let third-parties do as they see fit.</span>
-<span class="ansi-green-fg">   2043</span>     print_method = meth
-
-<span class="ansi-cyan-fg">File </span><span class="ansi-green-fg">~/projects/dns-exfiltration-detection/.venv/lib/python3.12/site-packages/matplotlib/backends/backend_agg.py:481</span>, in <span class="ansi-cyan-fg">FigureCanvasAgg.print_png</span><span class="ansi-blue-fg">(self, filename_or_obj, metadata, pil_kwargs)</span>
-<span class="ansi-green-fg">    434</span> <span class="ansi-bold" style="color: rgb(0,135,0)">def</span><span style="color: rgb(188,188,188)"> </span><span class="ansi-blue-fg">print_png</span>(<span style="color: rgb(0,135,0)">self</span>, filename_or_obj, *, metadata=<span class="ansi-bold" style="color: rgb(0,135,0)">None</span>, pil_kwargs=<span class="ansi-bold" style="color: rgb(0,135,0)">None</span>):
-<span class="ansi-green-fg">    435</span> <span style="color: rgb(188,188,188)">    </span><span class="ansi-yellow-fg">"""</span>
-<span class="ansi-green-fg">    436</span> <span class="ansi-yellow-fg">    Write the figure to a PNG file.</span>
-<span class="ansi-green-fg">    437</span> 
-<span class="ansi-green-fg">   (...)</span><span class="ansi-green-fg">    479</span> <span class="ansi-yellow-fg">        *metadata*, including the default 'Software' key.</span>
-<span class="ansi-green-fg">    480</span> <span class="ansi-yellow-fg">    """</span>
-<span class="ansi-green-fg">--&gt; </span><span class="ansi-green-fg">481</span>     <span class="ansi-yellow-bg" style="color: rgb(0,135,0)">self</span><span class="ansi-yellow-bg">.</span><span class="ansi-yellow-bg">_print_pil</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg">filename_or_obj</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-fg ansi-yellow-bg">"</span><span class="ansi-yellow-fg ansi-yellow-bg">png</span><span class="ansi-yellow-fg ansi-yellow-bg">"</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg">pil_kwargs</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg">metadata</span><span class="ansi-yellow-bg">)</span>
-
-<span class="ansi-cyan-fg">File </span><span class="ansi-green-fg">~/projects/dns-exfiltration-detection/.venv/lib/python3.12/site-packages/matplotlib/backends/backend_agg.py:430</span>, in <span class="ansi-cyan-fg">FigureCanvasAgg._print_pil</span><span class="ansi-blue-fg">(self, filename_or_obj, fmt, pil_kwargs, metadata)</span>
-<span class="ansi-green-fg">    425</span> <span class="ansi-yellow-fg">"""</span>
-<span class="ansi-green-fg">    426</span> <span class="ansi-yellow-fg">Draw the canvas, then save it using `.image.imsave` (to which</span>
-<span class="ansi-green-fg">    427</span> <span class="ansi-yellow-fg">*pil_kwargs* and *metadata* are forwarded).</span>
-<span class="ansi-green-fg">    428</span> <span class="ansi-yellow-fg">"""</span>
-<span class="ansi-green-fg">    429</span> FigureCanvasAgg.draw(<span style="color: rgb(0,135,0)">self</span>)
-<span class="ansi-green-fg">--&gt; </span><span class="ansi-green-fg">430</span> <span class="ansi-yellow-bg">mpl</span><span class="ansi-yellow-bg">.</span><span class="ansi-yellow-bg">image</span><span class="ansi-yellow-bg">.</span><span class="ansi-yellow-bg">imsave</span><span class="ansi-yellow-bg">(</span>
-<span class="ansi-green-fg">    431</span> <span class="ansi-yellow-bg">    </span><span class="ansi-yellow-bg">filename_or_obj</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg" style="color: rgb(0,135,0)">self</span><span class="ansi-yellow-bg">.</span><span class="ansi-yellow-bg">buffer_rgba</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg">)</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg" style="color: rgb(0,135,0)">format</span><span class="ansi-yellow-bg">=</span><span class="ansi-yellow-bg">fmt</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg">origin</span><span class="ansi-yellow-bg">=</span><span class="ansi-yellow-fg ansi-yellow-bg">"</span><span class="ansi-yellow-fg ansi-yellow-bg">upper</span><span class="ansi-yellow-fg ansi-yellow-bg">"</span><span class="ansi-yellow-bg">,</span>
-<span class="ansi-green-fg">    432</span> <span class="ansi-yellow-bg">    </span><span class="ansi-yellow-bg">dpi</span><span class="ansi-yellow-bg">=</span><span class="ansi-yellow-bg" style="color: rgb(0,135,0)">self</span><span class="ansi-yellow-bg">.</span><span class="ansi-yellow-bg">figure</span><span class="ansi-yellow-bg">.</span><span class="ansi-yellow-bg">dpi</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg">metadata</span><span class="ansi-yellow-bg">=</span><span class="ansi-yellow-bg">metadata</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg">pil_kwargs</span><span class="ansi-yellow-bg">=</span><span class="ansi-yellow-bg">pil_kwargs</span><span class="ansi-yellow-bg">)</span>
-
-<span class="ansi-cyan-fg">File </span><span class="ansi-green-fg">~/projects/dns-exfiltration-detection/.venv/lib/python3.12/site-packages/matplotlib/image.py:1657</span>, in <span class="ansi-cyan-fg">imsave</span><span class="ansi-blue-fg">(fname, arr, vmin, vmax, cmap, format, origin, dpi, metadata, pil_kwargs)</span>
-<span class="ansi-green-fg">   1655</span> pil_kwargs.setdefault(<span class="ansi-yellow-fg">"</span><span class="ansi-yellow-fg">format</span><span class="ansi-yellow-fg">"</span>, <span style="color: rgb(0,135,0)">format</span>)
-<span class="ansi-green-fg">   1656</span> pil_kwargs.setdefault(<span class="ansi-yellow-fg">"</span><span class="ansi-yellow-fg">dpi</span><span class="ansi-yellow-fg">"</span>, (dpi, dpi))
-<span class="ansi-green-fg">-&gt; </span><span class="ansi-green-fg">1657</span> <span class="ansi-yellow-bg">image</span><span class="ansi-yellow-bg">.</span><span class="ansi-yellow-bg">save</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg">fname</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg">*</span><span class="ansi-yellow-bg">*</span><span class="ansi-yellow-bg">pil_kwargs</span><span class="ansi-yellow-bg">)</span>
-
-<span class="ansi-cyan-fg">File </span><span class="ansi-green-fg">~/projects/dns-exfiltration-detection/.venv/lib/python3.12/site-packages/PIL/Image.py:2576</span>, in <span class="ansi-cyan-fg">Image.save</span><span class="ansi-blue-fg">(self, fp, format, **params)</span>
-<span class="ansi-green-fg">   2574</span>         fp = builtins.open(filename, <span class="ansi-yellow-fg">"</span><span class="ansi-yellow-fg">r+b</span><span class="ansi-yellow-fg">"</span>)
-<span class="ansi-green-fg">   2575</span>     <span class="ansi-bold" style="color: rgb(0,135,0)">else</span>:
-<span class="ansi-green-fg">-&gt; </span><span class="ansi-green-fg">2576</span>         fp = <span class="ansi-yellow-bg">builtins</span><span class="ansi-yellow-bg">.</span><span class="ansi-yellow-bg">open</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg">filename</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-fg ansi-yellow-bg">"</span><span class="ansi-yellow-fg ansi-yellow-bg">w+b</span><span class="ansi-yellow-fg ansi-yellow-bg">"</span><span class="ansi-yellow-bg">)</span>
-<span class="ansi-green-fg">   2577</span> <span class="ansi-bold" style="color: rgb(0,135,0)">else</span>:
-<span class="ansi-green-fg">   2578</span>     fp = cast(IO[<span style="color: rgb(0,135,0)">bytes</span>], fp)
-
-<span class="ansi-red-fg">FileNotFoundError</span>: [Errno 2] No such file or directory: '../Images/inter_query_durations.png'</pre>
-</div>
-</div>
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedImage jp-OutputArea-output" tabindex="0">
@@ -8325,7 +8226,7 @@ In contrast, automated or beaconing traffic often shows a low standard deviation
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [16]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Group by client IP to compute inter-query stats</span>
@@ -8403,7 +8304,7 @@ In contrast, automated or beaconing traffic often shows a low standard deviation
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [17]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">questions_df</span><span class="p">[</span><span class="s1">'timestamp'</span><span class="p">]</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">to_datetime</span><span class="p">(</span><span class="n">questions_df</span><span class="p">[</span><span class="s1">'timestamp'</span><span class="p">])</span>
@@ -8419,7 +8320,7 @@ In contrast, automated or beaconing traffic often shows a low standard deviation
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [18]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">top_ips_unique_domains</span> <span class="o">=</span> <span class="p">(</span>
@@ -8511,7 +8412,7 @@ NXDOMAIN response is given when a DNS client queries for a non-existent domain. 
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [19]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Map RCODEs to descriptive names</span>
@@ -8593,7 +8494,7 @@ This stacked chart highlights when suspicious queries occur. Spikes in <code>rco
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [20]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Define our suspicious queries as those that returned no error, yet the answer was empty.</span>
@@ -8672,7 +8573,7 @@ Attackers often configure malware to exfiltrate data at regular intervals to avo
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [21]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Resample counts for suspicious responses</span>
@@ -8749,7 +8650,7 @@ Attackers often configure malware to exfiltrate data at regular intervals to avo
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [22]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Ensure 'answers' is list-like and extract TTLs</span>
@@ -8820,7 +8721,7 @@ Attackers often configure malware to exfiltrate data at regular intervals to avo
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [23]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Filter only TTLs less than 60 seconds</span>
@@ -8899,7 +8800,7 @@ Attackers often configure malware to exfiltrate data at regular intervals to avo
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [24]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Mapping from rtype numeric to human-readable name</span>
@@ -8936,7 +8837,7 @@ Attackers often configure malware to exfiltrate data at regular intervals to avo
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [25]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Extract and map rtype values</span>
@@ -8969,7 +8870,7 @@ Attackers often configure malware to exfiltrate data at regular intervals to avo
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [26]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Plot breakdown</span>
@@ -9044,55 +8945,6 @@ Attackers often configure malware to exfiltrate data at regular intervals to avo
 <li>CIC-Bell-DNSExf Dataset: <a href="https://www.unb.ca/cic/datasets/dns-exfiltration.html">CIC Website</a></li>
 <li>Corresponding Paper: <em>Samaneh Mahdavifar, Amgad Hanafy Salem, Princy Victor, Miguel Garzon, Amir H. Razavi, Natasha Hellberg, Arash Habibi Lashkari, "Lightweight Hybrid Detection of Data Exfiltration using DNS based on Machine Learning", The 11th IEEE International Conference on Communication and Network Security (ICCNS), Dec. 3–5, 2021, Beijing Jiaotong University, Weihai, China.</em></li>
 </ul>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=0276f570-a7cb-408a-8597-82f87a8367d5">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [13]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="o">!</span>jupyter<span class="w"> </span>nbconvert<span class="w"> </span>--to<span class="w"> </span>html<span class="w"> </span>./Notebooks/dns_exfiltration_analysis-framework.ipynb<span class="w"> </span>index.html
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>usage: jupyter [-h] [--version] [--config-dir] [--data-dir] [--runtime-dir]
-               [--paths] [--json] [--debug]
-               [subcommand]
-
-Jupyter: Interactive Computing
-
-positional arguments:
-  subcommand     the subcommand to launch
-
-options:
-  -h, --help     show this help message and exit
-  --version      show the versions of core jupyter packages and exit
-  --config-dir   show Jupyter config dir
-  --data-dir     show Jupyter data dir
-  --runtime-dir  show Jupyter runtime dir
-  --paths        show all Jupyter paths. Add --json for machine-readable
-                 format.
-  --json         output paths as machine-readable json
-  --debug        output debug information about paths
-
-Available subcommands: kernel kernelspec migrate run troubleshoot
-
-Jupyter command `jupyter-nbconvert` not found.
-</pre>
-</div>
 </div>
 </div>
 </div>
