@@ -6,6 +6,4 @@ parsed_output/
 .venv/
 scripts/*.json
 scripts/log_*
-Notebooks/images/
-Notebooks/Staging
 .vscode/
