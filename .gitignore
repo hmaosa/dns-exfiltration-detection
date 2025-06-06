@@ -3,6 +3,9 @@ __pycache__/
 parsed_output/
 *.log
 *.pyc
-.env
+.venv/
 scripts/*.json
 scripts/log_*
+Notebooks/images/
+Notebooks/Staging
+.vscode/
