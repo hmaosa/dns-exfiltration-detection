@@ -1,0 +1,11 @@
+__pycache__/
+.ipynb_checkpoints/
+parsed_output/
+*.log
+*.pyc
+.venv/
+scripts/*.json
+scripts/log_*
+Notebooks/images/
+Notebooks/Staging
+.vscode/
