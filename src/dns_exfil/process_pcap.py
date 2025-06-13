@@ -1,6 +1,6 @@
 import json
 import pandas as pd
-from dns_utils import shannon_entropy
+from .dns_utils import shannon_entropy
 
 def process_dns(input_file):
     if not input_file:
